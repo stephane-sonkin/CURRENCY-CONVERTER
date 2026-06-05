@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convertisseur de devises</title>
+  </head>
+  <body>
+	<main class="page-shell">
+		<section class="converter-card">
+			<header class="converter-header">
+				<p class="label-small">Taux de change moyen du marché</p>
+				<h1>1 A$ AUD = 404,2 XOF</h1>
+			</header>
+
+			<div class="converter-block">
+				<div class="field-header">
+					<p>Montant</p>
+				</div>
+				<div class="field-row">
+					<input type="text" aria-label="Montant" data-base="USD" />
+					<select id="from" aria-label="Monnaie source">
+						<option value="USD" selected>USD</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="exchange-divider" aria-hidden="true">
+				<span>⇅</span>
+			</div>
+
+			<div class="converter-block">
+				<div class="field-header">
+					<p>Vers</p>
+				</div>
+				<div class="field-row">
+					<input type="text" aria-label="Montant converti" data-base="XAF" />
+					<select id="to" aria-label="Monnaie cible">
+						<option value="XAF" selected>XAF</option>
+					</select>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="/script.js"></script>
+  </body>
+</html>
