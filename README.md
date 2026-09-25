@@ -8,7 +8,7 @@ Built with a modern UI approach using live exchange rates from the Frankfurter A
 ## 🚀 Live Demo
 
 <p align="center">
-  <img src="/assets/Animation.gif" alt="Currency Converter Demo" width="600">
+  <img src="/assets/animation.gif" alt="Currency Converter Demo" width="600">
 </p>
 
 🔗 [Try Currency Converter](https://stephane-sonkin.github.io/CURRENCY-CONVERTER/)
